@@ -63,6 +63,21 @@
             line-height: 1.5;
         }
 
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 22px;
+            background: #292621;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            opacity: 0.85;
+        }
+
         .archive {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -122,6 +137,8 @@
                     experiences, projects, challenges, and lessons
                     throughout a learning journey.
                 </p>
+
+                <a href="/shelves" class="button">Explore Shelves →</a>
             </section>
 
             <section class="archive">
